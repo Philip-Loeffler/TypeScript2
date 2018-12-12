@@ -1,11 +1,11 @@
 // all the same. => is just a way to define functions
-let log = function(message) {
+let a = function(message) {
     console.log(message);
 
 }
 
-let doLog = (message) => {
+let b = (message) => {
     console.log(message);
 }
 
-let doLog2 = (message) => console.log(message);
+let c = (message) => console.log(message);
